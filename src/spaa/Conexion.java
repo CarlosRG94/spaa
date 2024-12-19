@@ -9,8 +9,8 @@ import java.sql.PreparedStatement;
 public class Conexion {
 	private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
 	private static final String url = "jdbc:mysql://localhost:3306/dbspa";
-	final String usuario = "root";
-    final String contraseña = "1234";
+	final String usuario = "*******";
+    final String contraseña = "********";
     Connection dbConnection = null;
     PreparedStatement preparedStatement= null;
     
